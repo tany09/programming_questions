@@ -38,6 +38,7 @@ function chunk(array, size) {
     const chunked = [];
 
     for (let element of array) {
+        // last refers to the chunked array. It does not make a copy of chunked array.
         const last = chunked[chunked.length - 1];
         
         if(!last || last.length === size) {
