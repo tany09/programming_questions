@@ -50,4 +50,3 @@ function pyramid (n, row=0, str= '') {
 
     return pyramid(n, row, str);
 }
-
