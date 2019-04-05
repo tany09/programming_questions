@@ -54,4 +54,3 @@ function steps (n, row =0, str = '') {
 }
 
 
-module.exports = steps;
